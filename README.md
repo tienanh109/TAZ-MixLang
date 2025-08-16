@@ -8,5 +8,6 @@
 # About
 - Full docs: https://tienanh109.github.io/TAZ-MixLang/
 - For source code, visit https://github.com/tienanh109/TAZ-MixLang/
+- On PyPI: https://pypi.org/project/taz-mixlang/
 
 *Thanks for reading!*
