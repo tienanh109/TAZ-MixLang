@@ -1,0 +1,20 @@
+## MixLang Syntax Highlighting for nano editor
+## Author: tienanh109
+
+syntax "mixlang" "\.mix$"
+header "MIX"
+
+
+color brightblack start="#" end="$"
+
+
+color brightcyan "\<(call|clear)\>"
+
+
+color brightyellow "\<(from|task|done)\>"
+
+
+color green ""([^"]|\\")*""
+
+
+color white "\b(python|node|bash|cmd|sh)\b"
