@@ -1,7 +1,7 @@
 # TAZ Mix Lang
 A simple, powerful polyglot script runner for defining and executing multi-language tasks.
 Made by **tienanh109**
-Version: 1.1
+Version: 1.2
 # How to build?
 ...
 # About
