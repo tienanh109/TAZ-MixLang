@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import List, Dict, Optional
 
 # --- PROJECT METADATA ---
-__VERSION__ = "1.1"
+__VERSION__ = "1.3"
 __AUTHOR__ = "tienanh109"
 __DOCS_URL__ = "https://tienanh109.github.io/TAZ-MixLang/" 
 
@@ -296,7 +296,7 @@ EXAMPLE:
 
   clear();
 
-  call(".js").from(nodejs).task("test"):
+  call(".js").from(node).task("test"):
       console.log("Running Node.js tests...");
   call(done)
 
