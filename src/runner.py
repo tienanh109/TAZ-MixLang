@@ -54,7 +54,7 @@ class CustomFormatter(logging.Formatter):
         if os.name == 'nt':
              return f"[{interpreter.upper()}] {record.getMessage()}"
         
-        color_map = {"python": "\033[94m", "nodejs": "\03d[92m", "bash": "\033[93m", "cmd": "\033[95m"}
+        color_map = {"python": "\033[94m", "node": "\03d[92m", "bash": "\033[93m", "cmd": "\033[95m"}
         color = color_map.get(interpreter, "\033[0m")
         end_color = "\033[0m"
         return f"{color}[{interpreter.upper()}]{end_color} {record.getMessage()}"
@@ -353,3 +353,4 @@ taz-mixlang v{__VERSION__} by {__AUTHOR__}
 
 if __name__ == "__main__":
     main()
+
