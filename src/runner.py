@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import List, Dict, Optional
 
 # --- PROJECT METADATA ---
-__VERSION__ = "1.3"
+__VERSION__ = "1.4"
 __AUTHOR__ = "tienanh109"
 __DOCS_URL__ = "https://tienanh109.github.io/TAZ-MixLang/" 
 
@@ -353,4 +353,5 @@ taz-mixlang v{__VERSION__} by {__AUTHOR__}
 
 if __name__ == "__main__":
     main()
+
 
